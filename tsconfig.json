@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "target": "ES5",
+        "module": "commonjs",
+        "lib": ["dom", "es5", "es2015.promise" ,"es2015", "es2017"],
+        "declaration": true,
+        "declarationDir": "./@types",
+        "baseUrl":".",
+        "moduleResolution":"node",
+        "paths":{
+            "tslib":["node_modules/tslib/tslib.d.ts"]
+        },
+    },
+    "include": [
+        "src/**/*.ts"
+    ],
+    "exclude": [
+        "node_modules",
+        "**.d.ts",
+        "build",
+    ]
+}
